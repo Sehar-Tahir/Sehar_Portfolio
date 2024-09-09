@@ -40,7 +40,7 @@ const Footer = () => {
                         <textarea name="message" id="" cols={30} rows={6} placeholder='How Can I help you?' autoComplete='off'
                             required className='mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm border-2 border-slate-500'></textarea>
 
-                        <input type="submit" value='Get In Tounch' className='bg-slate-700 h-8 rounded w-3/5
+                        <input type="submit" value='Get In Tounch' className='bg-slate-700 h-10 rounded-xl w-3/5
                         border-2 border-slate-500 hover:scale-110 duration-300' />
 
                     </form>
@@ -56,12 +56,12 @@ const Footer = () => {
                     <ul className='text-sm md:text-xl flex justify-center items-center md:flex-row md:gap-5 mt-4'>
 
                         <a href="https://www.linkedin.com/in/sehartahir" target='_blank'
-                            className='flex gap-1 items-center hover:text-opacity-90 font-semibold md:border-2 border-white p-2 rounded'>
+                            className='flex gap-1 items-center hover:text-opacity-90 font-bold md:border-2 border-white p-2 rounded'>
                             <CiLinkedin size={25} className='duration-300 hover:scale-125' />
                             <li className='hover:text-gray-300'>Linkedin</li></a>
 
                         <a href="https://github.com/Sehar-Tahir" target='_blank'
-                            className='flex gap-2 items-center hover:text-opacity-90 font-semibold md:border-2 border-white p-2 rounded'>
+                            className='flex gap-2 items-center hover:text-opacity-90 font-bold md:border-2 border-white p-2 rounded'>
                             <FaGithub size={20} className='duration-300 hover:scale-125' />
                             <li className='hover:text-gray-300'>Github</li></a>
                     </ul>

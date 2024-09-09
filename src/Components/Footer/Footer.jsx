@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { BiPhone } from 'react-icons/bi'
 import { CiLinkedin } from 'react-icons/ci'
 import { FaGithub } from 'react-icons/fa'
 import { MdOutlineEmail } from 'react-icons/md'
@@ -48,10 +47,10 @@ const Footer = () => {
 
                 <div className='flex flex-col justify-center items-center mt-4 md:mt-0'>
                     <h2 className="text-xl md:text-4xl font-bold">Connect with me</h2>
-                    <h3 className="text-sm md:text-xl font-semibold">Feel free to react out!</h3>
-                    <ul className='mt-6 flex flex-col'>
+                    <h3 className="text-sm md:text-xl font-semibold">Feel free to reach out!</h3>
+                    <ul className='mt-6 flex flex-col justify-center'>
+                        <li className='font-semibold text-center'>You can reach me via email at:</li>
                         <li className='flex items-center gap-1 font-semibold'><MdOutlineEmail className='mt-1' />sehartahirofficial@gmail.com</li>
-                        <li className='flex items-center gap-1 font-semibold'><BiPhone className='mt-1' />+92 3250771836</li>
                     </ul>
                     <ul className='text-sm md:text-xl flex justify-center items-center md:flex-row md:gap-5 mt-4'>
 

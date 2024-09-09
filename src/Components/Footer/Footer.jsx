@@ -32,15 +32,16 @@ const Footer = () => {
                     <form ref={form} onSubmit={sendEmail} className='flex flex-col mt-4 items-center'>
 
                         <input type="text" name='user_name' placeholder='Enter Your Name' autoComplete='off' required
-                            className='w-full mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm' />
+                            className='w-full mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm border-2 border-slate-500' />
 
                         <input type="email" name='user_email' placeholder='Enter Your Email' autoComplete='off' required
-                            className='w-full mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm' />
+                            className='w-full mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm border-2 border-slate-500' />
 
                         <textarea name="message" id="" cols={30} rows={6} placeholder='How Can I help you?' autoComplete='off'
-                            required className='mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm'></textarea>
+                            required className='mb-4 p-2 rounded bg-slate-900 text-white pl-4 text-sm border-2 border-slate-500'></textarea>
 
-                        <input type="submit" value='Get In Tounch' className='bg-slate-700 h-8 rounded w-3/5' />
+                        <input type="submit" value='Get In Tounch' className='bg-slate-700 h-8 rounded w-3/5
+                        border-2 border-slate-500 hover:scale-110 duration-300' />
 
                     </form>
                 </div>
@@ -49,8 +50,8 @@ const Footer = () => {
                     <h2 className="text-xl md:text-4xl font-bold">Connect with me</h2>
                     <h3 className="text-sm md:text-xl font-semibold">Feel free to reach out!</h3>
                     <ul className='mt-6 flex flex-col justify-center'>
-                        <li className='font-semibold text-center'>You can reach me via email at:</li>
-                        <li className='flex items-center gap-1 font-semibold'><MdOutlineEmail className='mt-1' />sehartahirofficial@gmail.com</li>
+                        <li className='font-bold text-center'>You can reach me via email at:</li>
+                        <li className='flex items-center gap-1 font-semibold text-gray-300'><MdOutlineEmail className='mt-1' />sehartahirofficial@gmail.com</li>
                     </ul>
                     <ul className='text-sm md:text-xl flex justify-center items-center md:flex-row md:gap-5 mt-4'>
 
@@ -67,7 +68,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' text-white text-center my-2 hover:text-gray-300 text-xs'>
-                <p>&copy; 2024 ST Portfolio &hearts; | All Right reserved.</p>
+                <p>&copy; 2024 ST Portfolio &hearts; | All right reserved.</p>
             </div>
         </>
     )

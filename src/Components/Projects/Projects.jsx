@@ -11,7 +11,7 @@ import Project6 from '../../assets/Project6.png'
 
 const Projects = () => {
   return (
-    <div id='Projects' className='p-10 md:p-24 text-white md:mt-8'>
+    <div id='Projects' className='md:p-24 px-2 text-white md:mt-8'>
       <h1 className="text-2xl md:text-4xl text-white font-bold text-center">Projects</h1>
 
       <div className="py-12 px-8 flex flex-wrap gap-5 items-center justify-center">

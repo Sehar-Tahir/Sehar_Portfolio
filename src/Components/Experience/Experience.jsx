@@ -25,7 +25,7 @@ const Experience = () => {
                     <div className='flex gap-3 py-4 md:ml-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl'>Web Dev Internship</h1>
                         <p className='text-sm md:text-md leading-tight text-slate-600'>
-                            COde Alpha | April 2024
+                            Code Alpha | April 2024
                         </p>
                         <p>
                             During this remote internship, my role is to create web applications using Html, CSS and JavaScript. While

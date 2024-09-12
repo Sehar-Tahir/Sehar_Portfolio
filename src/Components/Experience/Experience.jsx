@@ -9,9 +9,11 @@ const Experience = () => {
                 <div className='text-white bg-black shadow-xl bg-opacity-30 rounded-lg p-4 md:mb-4 md:mt-28 mt-4 md:mx-6'>
                     <div className='flex gap-3 py-4 md:ml-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl'>React & Next.Js Fellowship</h1>
-                        <p className='text-sm md:text-md leading-tight text-slate-600'>
+                        <p className='text-sm md:text-md leading-tight text-slate-400'>
                             Bytewise Limited | June 2024 - August 2024
                         </p>
+                        <p className='text-sm md:text-md leading-tight text-yellow-300'>
+                        &#9733; Awarded as a Top Performer</p>
                         <p>
                             It was an amazing oppurtunity to learn & deep dive into web development. During this fellowship,
                             I had learnt a lot about web development, frontened technologies React , Material UI, Tailwind Css,
@@ -24,7 +26,7 @@ const Experience = () => {
                 <div className='text-white bg-black shadow-xl bg-opacity-30 rounded-lg p-4 md:mb-4 md:mx-6'>
                     <div className='flex gap-3 py-4 md:ml-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl'>Web Dev Internship</h1>
-                        <p className='text-sm md:text-md leading-tight text-slate-600'>
+                        <p className='text-sm md:text-md leading-tight text-slate-400'>
                             Code Alpha | April 2024
                         </p>
                         <p>

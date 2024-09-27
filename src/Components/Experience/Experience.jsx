@@ -15,7 +15,7 @@ const Experience = () => {
                         <p className='text-sm md:text-md leading-tight text-yellow-300'>
                         &#9733; Awarded as a Top Performer for the month (June)</p>
                         <p>
-                            It was an amazing oppurtunity to learn & deep dive into web development. During this fellowship,
+                            It was an amazing opportunity to learn & deep dive into web development. During this fellowship,
                             I had learnt a lot about web development, frontened technologies React , Material UI, Tailwind Css,
                             and Next Js.
                         </p>

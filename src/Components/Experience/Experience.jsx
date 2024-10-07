@@ -13,7 +13,7 @@ const Experience = () => {
                             Bytewise Limited | June 2024 - August 2024
                         </p>
                         <p className='text-sm md:text-md leading-tight text-yellow-300'>
-                        &#9733; Awarded as a Top Performer for the month (June)</p>
+                        &#9733; Awarded as a Top Performer of the Month</p>
                         <p>
                             It was an amazing opportunity to learn & deep dive into web development. During this fellowship,
                             I had learnt a lot about web development, frontened technologies React , Material UI, Tailwind Css,

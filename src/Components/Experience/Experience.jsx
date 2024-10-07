@@ -10,7 +10,7 @@ const Experience = () => {
                     <div className='flex gap-3 py-4 md:ml-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl'>React & Next.Js Fellowship</h1>
                         <p className='text-sm md:text-md leading-tight text-slate-400'>
-                            Bytewise Limited | June 2024 - August 2024
+                            Bytewise Limited | June 2024 - September 2024
                         </p>
                         <p className='text-sm md:text-md leading-tight text-yellow-300'>
                         &#9733; Awarded as a Top Performer of the Month</p>

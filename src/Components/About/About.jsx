@@ -16,9 +16,9 @@ const About = () => {
                                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontened React Developer</h1>
                                 <p className='text-sm md:text-md leading-tight mt-1'>I'm Sehar Tahir, a front-end react developer with
                                     a passion of developing different, complex and responsive web applications. My Skills include Html, Css,
-                                    JavaScript, Css Frameworks i.e Bootstrap & Tailwind Css, React Js and Material UI. I love to work on
-                                    web applications using technologies like React, Tailwind Css and Next Js. Currently, I'm expanding my
-                                    knowledge by learning Next js. </p>
+                                    JavaScript, Css Frameworks i.e Bootstrap & Tailwind Css, Material UI and React Js. I love to work on
+                                    web applications using technologies like React with Tailwind Css. Currently, I'm expanding my
+                                    knowledge by learning React.</p>
                             </span>
                         </div>
 

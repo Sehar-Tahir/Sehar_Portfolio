@@ -29,7 +29,7 @@ const Projects = () => {
                         and learn from each other. Built with Material UI components.' git='https://github.com/Sehar-Tahir/Web_Dev_Site' demo='https://web-dev-site-ten.vercel.app/' />
 
 
-        <ProjectCard title='Promptify' imgsrc={Project1} tec='Next Js, Tailwind Css' desc='Promtify is a AI-powered platform to generate innovative ideas and inspiration, Discover, share, and collaborate
+        <ProjectCard title='Promptify' imgsrc={Project1} tec='Next Js, Tailwind [Under Working]' desc='Promtify is a AI-powered platform to generate innovative ideas and inspiration, Discover, share, and collaborate
                 on prompts with Promptify!' git='' demo='' />
 
         <ProjectCard title='Bootstrap Project' imgsrc={Project6} tec='Html, CSS, Bootstrap' desc='Dev Learnings is a  responsive landing page created by html,

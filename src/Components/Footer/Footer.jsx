@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { CiLinkedin } from 'react-icons/ci'
 import { FaGithub } from 'react-icons/fa'
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' text-white text-center my-2 hover:text-gray-300 text-xs'>
-                <p>&copy; 2024 ST Portfolio &hearts; | All right reserved.</p>
+                <p>&copy; 2025 ST Portfolio &hearts; | All right reserved.</p>
             </div>
         </>
     )

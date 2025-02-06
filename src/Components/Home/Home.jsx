@@ -1,4 +1,3 @@
-import React from 'react'
 import TextChange from '../TextChange'
 import { BiDownload } from 'react-icons/bi'
 import { LuContact } from 'react-icons/lu'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaCss3, FaHtml5, FaReact, FaJs } from 'react-icons/fa'
 import { DiBootstrap, DiMaterializecss } from 'react-icons/di'
 import { SiMui } from 'react-icons/si'
@@ -29,7 +28,6 @@ const Skills = () => {
 
         <div className='flex flex-col items-center gap-3 hover:scale-110 duration-300'>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            {/* <DiMaterializecss color='#87CEEB' size={50} /></span> */}
             <DiMaterializecss color='#35bcf3' size={50} /></span>
           <h1 className='text-white font-bold'>Tailwind Css</h1>
         </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Profile_icon from '../../assets/profile1.jpg'
 import { IoArrowForward } from 'react-icons/io5'
 const About = () => {

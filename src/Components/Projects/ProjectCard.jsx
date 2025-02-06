@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BiArrowToRight, BiLink } from 'react-icons/bi'
 import { BiCode } from 'react-icons/bi'
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import { BiArrowToRight, BiLink } from 'react-icons/bi'
 import { BiCode } from 'react-icons/bi'
@@ -5,7 +6,7 @@ import { BiCode } from 'react-icons/bi'
 
 const ProjectCard = ({ title, tec, desc, imgsrc, demo, git }) => {
   return (
-    <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
+    <div className='p-3 md:p-6 flex flex-col w-80 md:w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl hover:scale-[1.02] transition-transform duration-300 ease-in-out'>
 
       <img className='p-1 mt-3' src={imgsrc} alt="Project Img" />
       <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal mt-4'>{title}</h3>

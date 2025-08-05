@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className="bg-[#171d32] h-auto overflow-hidden">
+    <div className="bg-white text-black dark:bg-[#171d32] dark:text-white transition-all duration-300 h-auto overflow-hidden">
       <Navbar />
       <Home />
       <About />

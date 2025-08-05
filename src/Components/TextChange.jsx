@@ -29,7 +29,7 @@ const TextChange = () => {
 
   }, [endValue, isForward, index, texts,]);
   return (
-    <div className='transition ease duration-300'>
+    <div className='transition ease duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white'>
       {currentText}
     </div>
   )

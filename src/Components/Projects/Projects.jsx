@@ -9,7 +9,7 @@ import Portfolio from '../../assets/Portfolio.png'
 const Projects = () => {
   return (
     <div id='Projects' className='md:p-24 px-2 text-white md:mt-8'>
-      <h1 className="text-2xl md:text-4xl text-white font-bold text-center">Projects</h1>
+      <h1 className="text-2xl md:text-4xl transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-whitetext-[] dark:text-white font-bold text-center">Projects</h1>
 
       <div className="py-12 px-8 flex flex-wrap gap-5 items-center justify-center">
 

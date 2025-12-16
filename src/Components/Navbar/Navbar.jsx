@@ -9,9 +9,9 @@ const Navbar = () => {
   const [theme, setTheme] = useState('dark');
 
 
-   // On first load, check localStorage or default to dark
+  // On first load, check localStorage or default to dark
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = localStorage.getItem('theme') || 'light';
     setTheme(savedTheme);
     document.documentElement.classList.remove('dark', 'light');
     document.documentElement.classList.add(savedTheme);
@@ -53,24 +53,24 @@ const Navbar = () => {
         </ul>
       </div>
 
-    <div className='flex justify-content-center items-center'>
-      <button
-        onClick={toggleTheme}
-        className='absolute right-20 top-7 md:top-14 text-xl text-white md:right-10 transition-all duration-300'
-      >
-        {theme === 'dark' ? <FaMoon /> : <FaSun className='text-[#465697] md:text-white' />}
-      </button>
+      <div className='flex justify-content-center items-center'>
+        <button
+          onClick={toggleTheme}
+          className='absolute right-20 top-7 md:top-14 text-xl text-white md:right-10 transition-all duration-300'
+        >
+          {theme === 'dark' ? <FaMoon /> : <FaSun className='text-[#465697] md:text-white' />}
+        </button>
 
-      {showMenu ? (
-        <RiMenu2Line size={30} className='md:hidden dark:text-white text-[#465697] md:text-white absolute right-10 top-6 transition-all duration-300' onClick={() => {
-          openMenu(!menu); setShowMenu(!showMenu);
-        }} />
+        {showMenu ? (
+          <RiMenu2Line size={30} className='md:hidden dark:text-white text-[#465697] md:text-white absolute right-10 top-6 transition-all duration-300' onClick={() => {
+            openMenu(!menu); setShowMenu(!showMenu);
+          }} />
 
-      ) : <RiCloseLine size={30} className='md:hidden dark:text-white text-[#465697] md:text-white absolute right-10 top-6 transition-all duration-300' onClick={() => {
-        openMenu(false); setShowMenu(true)
-      }}
-      />
-      }
+        ) : <RiCloseLine size={30} className='md:hidden dark:text-white text-[#465697] md:text-white absolute right-10 top-6 transition-all duration-300' onClick={() => {
+          openMenu(false); setShowMenu(true)
+        }}
+        />
+        }
       </div>
     </nav>
   )

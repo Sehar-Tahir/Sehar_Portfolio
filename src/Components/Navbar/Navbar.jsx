@@ -6,17 +6,17 @@ import { FaSun, FaMoon } from 'react-icons/fa';
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
-  const [theme, setTheme] = useState('dark');
+  // Theme state with localStorage default value 
+  const [theme, setTheme] = useState(() => {
+  return localStorage.getItem('theme') || 'dark';
+});
 
 
-  // On first load, check localStorage or default to dark
-  useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    setTheme(savedTheme);
-    document.documentElement.classList.remove('dark', 'light');
-    document.documentElement.classList.add(savedTheme);
-  }, [])
-
+  // On first load default dark theme, Update theme class on theme change
+useEffect(() => {
+  document.documentElement.classList.remove('dark', 'light');
+  document.documentElement.classList.add(theme);
+}, [theme]);
 
   // Theme toggle logic
   const toggleTheme = () => {

@@ -18,7 +18,7 @@ import EasyDo from '../../assets/EasyDo.png'
 
 const Projects = () => {
   return (
-    <div id='Projects' className='md:p-24 px-2 text-white md:mt-8'>
+    <div id='Projects' className='md:p-24 px-2 text-white mt-10'>
       <h1 className="text-2xl md:text-4xl transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-whitetext-[] dark:text-white font-bold text-center">Projects</h1>
       <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 dark:border-white"></div>
 

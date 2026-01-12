@@ -1,12 +1,13 @@
 const Experience = () => {
     return (
         <>
-            <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center md:mt-24 mt-4">Experience</h2>
+        <div className="mt-28">
+            <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center">Experience</h2>
             <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 dark:border-white"></div>
-            <div id='Experience' className='flex flex-col justify-center items-center gap-6 md:gap-6 mt-8'>
+            <div id='Experience' className='flex flex-col justify-center items-center gap-4 md:gap-6 mt-8'>
 
 
-                <div className='border-y-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mb-4 md:mt-18 mt-4 md:mx-24 hover:scale-[1.02] transition-transform duration-300 ease-in-out shadow-lg'>
+                <div className='border-y-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mb-4 md:mt-10 mt-4 md:mx-24 m-5 md:m-0 hover:scale-[1.02] transition-transform duration-300 ease-in-out shadow-lg'>
                     <div className='flex gap-3 py-6 md:px-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl text-[#465697] dark:text-white'>React & Next.Js Fellowship</h1>
                         <p className='text-sm md:text-md leading-tight dark:text-slate-400 text-slate-600'>
@@ -25,7 +26,7 @@ const Experience = () => {
                 </div>
 
 
-                <div className='border-y-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-4 md:mb-4 md:mx-24 hover:scale-[1.02] transition-transform duration-300 ease-in-out shadow-lg'>
+                <div className='border-y-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-4 md:mb-4 md:mx-24 hover:scale-[1.02] m-5 md:m-0 transition-transform duration-300 ease-in-out shadow-lg'>
                     <div className='flex gap-3 py-6 md:px-20 md:mt-0 flex-col'>
                         <h1 className='font-bold text-xl text-[#465697] dark:text-white'>Web Dev Internship</h1>
                         <p className='text-sm md:text-md leading-tight dark:text-slate-400 text-slate-600'>
@@ -39,6 +40,7 @@ const Experience = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
         </>
     )

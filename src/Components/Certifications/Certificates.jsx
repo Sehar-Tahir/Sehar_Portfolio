@@ -49,7 +49,8 @@ const Certificates = () => {
 
   return (
     <>
-      <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center md:mt-20 mt-4">
+    <div className="mt-20">
+      <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center">
         Certifications
       </h2>
 
@@ -68,6 +69,7 @@ const Certificates = () => {
             verifyUrl={cert.url}
           />
         ))}
+      </div>
       </div>
     </>
   )

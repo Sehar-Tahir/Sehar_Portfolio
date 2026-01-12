@@ -1,6 +1,6 @@
 const CertificateCard = ({ title, description, verifyUrl, platform }) => {
   return (
-    <div className="w-full md:w-[420px] bg-white dark:bg-[#1f2642] border border-[#465697] dark:border-gray-600 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
+    <div className="w-80 md:w-[420px] bg-white dark:bg-[#1f2642] border border-[#465697] dark:border-gray-600 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
       
       <h3 className="text-lg font-bold md:text-xl text-[#465697] dark:text-white">
         {title}

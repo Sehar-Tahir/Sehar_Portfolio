@@ -6,8 +6,9 @@ const Skills = () => {
   return (
     <div id='Skills' className='p-10 md:mt-28'>
       <h1 className="text-2xl md:text-4xl transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white font-bold text-center">Skills</h1>
-      <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 dark:border-white mb-4"></div>
-      <div className="flex flex-wrap items-center justify-center md:w-5/5 mt-10 md:mt-24 gap-10">
+      <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 dark:border-white"></div>
+
+      <div className="flex flex-wrap items-center justify-center md:w-5/5 mt-10 gap-10">
 
         <div className='flex flex-col items-center gap-3 hover:scale-110 duration-300'>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">

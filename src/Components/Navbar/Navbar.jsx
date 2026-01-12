@@ -39,7 +39,7 @@ useEffect(() => {
         <ul className='flex md:gap-8 flex-col gap-2 md:flex-row'>
 
           <a href="#Home"><li className='text-md transition-all duration-300 md:p-0 hover:scale-110 hover:text-gray-300
-           md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 py-1'>Home</li></a>
+           md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 py-1 '>Home</li></a>
           <a href="#About"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
            md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>About</li></a>
           <a href="#Skills"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
@@ -53,7 +53,7 @@ useEffect(() => {
         </ul>
       </div>
 
-      <div className='flex justify-content-center items-center'>
+      <div className='flex justify-content-center items-center md:justify-end'>
         <button
           onClick={toggleTheme}
           className='absolute right-20 top-7 md:top-14 text-xl text-white md:right-10 transition-all duration-300'

@@ -8,12 +8,12 @@ const Home = () => {
 
     return (
         <div id='Home' className='bg-white text-black dark:bg-[#171d32] dark:text-white transition-all duration-300 flex w-full justify-center items-start p-10 md:p-20 md:mb-12 mt-20'>
-            <div className='md:w-2/4 md:pt-8'>
+            <div className='md:w-2/4 md:pt-8 md:mt-10'>
                 <h1 className='text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter'>
                     <TextChange />
                 </h1>
                 <p className='text-sm md:text-xl tracking-tight mt-3 bg-white text-[#8991b0] dark:bg-[#171d32] dark:text-white transition-all duration-300'>
-                    A passionate Web Developer from Pakistan. Reach out if you&#39;d like to know more!</p>
+                    A passionate Web Developer from Pakistan. Reach out to me if you&#39;d like to know more!</p>
 
                 <div className='flex flex-col items-center mt-6 mb-4 md:mb-0'>
 

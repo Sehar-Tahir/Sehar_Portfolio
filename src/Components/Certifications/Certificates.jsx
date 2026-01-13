@@ -18,18 +18,18 @@ const Certificates = () => {
       url: "https://coursera.org/share/551dc4f9b12601c60d528ceb07099482"
     },
     {
-      title: "HTML & CSS in Depth",
-      description:
-        "Gained hands-on experience in building responsive layouts, modern UI designs, and well-structured web pages using HTML and CSS.",
-      platform: "Coursera",
-      url: "https://coursera.org/share/461550edee84913994b8a0f00f17c8f8"
-    },
-    {
       title: "Programming with JavaScript",
       description:
         "Developed a strong foundation in JavaScript including variables, functions, loops, DOM manipulation, and basic problem-solving.",
       platform: "Coursera",
       url: "https://coursera.org/share/386ed6838b7f848dccf56f1d38f1c90f"
+    },
+    {
+      title: "HTML & CSS in Depth",
+      description:
+        "Gained hands-on experience in building responsive layouts, modern UI designs, and well-structured web pages using HTML and CSS.",
+      platform: "Coursera",
+      url: "https://coursera.org/share/461550edee84913994b8a0f00f17c8f8"
     },
     {
       title: "React Basics",

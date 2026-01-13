@@ -11,19 +11,22 @@ const Footer = () => {
     e.preventDefault()
 
     emailjs.sendForm(
-      'service_r827kbh',
-      'template_of2im07',
+      // 'service_hs5o3zk',
+      // 'template_of2im07',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       form.current,
       {
-        publicKey: 'u7mIHzwd7itG66PkN',
+        // publicKey: 'u7mIHzwd7itG66PkN',
+        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       }
     ).then(
       () => {
-        alert('Message Sent!')
+        alert('Message sent successfully!')
         form.current.reset()
       },
       (error) => {
-        alert('FAILED...', error.text)
+        alert('Failed to send message', error.text)
         form.current.reset()
       }
     )
@@ -41,7 +44,7 @@ const Footer = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col items-center w-full max-w-lg mx-auto gap-4"
+          className="flex flex-col items-center md:w-2/3 w-full mx-auto gap-4"
         >
           <input
             type="text"
@@ -87,7 +90,7 @@ const Footer = () => {
         </form>
 
         {/* RIGHT — CONTACT INFO */}
-        <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left mt-10">
+        <div className="flex flex-col justify-center items-center text-center md:text-left mt-10 md:mt-0">
           <h2 className="text-xl md:text-4xl font-bold">Connect with me</h2>
 
           <ul className="mt-6">

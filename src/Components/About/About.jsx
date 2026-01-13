@@ -13,13 +13,41 @@ const About = () => {
                         <div className='flex gap-3 py-4 md:ml-20 mt-8 md:mt-0'>
                             <span className='w-96'>
                                 <h1 className="text-xl md:text-4xl font-bold leading-normal dark:text-white text-[#465697]">Web Developer</h1>
-    
-                                <p className='text-sm md:text-md leading-tight mt-3'>I’m Sehar Tahir, a Web Developer who specializes
-                                    in building clean,responsive, and high-performing web applications.
-                                    I focus on creating simple, smooth user experiences with well-structured and maintainable code.
-                                    My core skills include HTML, CSS, JavaScript, React, and modern UI frameworks such as Tailwind CSS, Bootstrap, 
-                                    DaisyUI, and Material UI. I enjoy transforming ideas and designs into simple, visually appealing websites. 
-                                    Currently, I’m strengthening my expertise by learning backend development using the MERN stack.</p>
+                                <p className='text-sm md:text-md leading-tight mt-3'>
+                                    I’m Sehar Tahir, a Web Developer focused on building clean, responsive,
+                                    and high-performing web applications. I specialize in creating smooth
+                                    user experiences using HTML, CSS, JavaScript, React, and modern UI
+                                    frameworks like Tailwind CSS, Bootstrap, DaisyUI, and Material UI.
+                                    Currently, I’m expanding my skills by learning backend development
+                                    with the MERN stack.
+                                </p>
+
+                                {/* Stats Section */}
+                                <div className="flex flex-wrap gap-6 mt-6 justify-start">
+
+                                    <div className="text-center">
+                                        <h3 className="text-xl md:text-4xl font-bold text-[#465697] dark:text-white">
+                                            25+
+                                        </h3>
+                                        <p className="text-sm md:text-base mt-1">Projects</p>
+                                    </div>
+
+                                    <div className="text-center">
+                                        <h3 className="text-xl md:text-4xl font-bold text-[#465697] dark:text-white">
+                                            6
+                                        </h3>
+                                        <p className="text-sm md:text-base mt-1">Courses Completed</p>
+                                    </div>
+
+                                    <div className="text-center">
+                                        <h3 className="text-xl md:text-4xl font-bold text-[#465697] dark:text-white">
+                                            2
+                                        </h3>
+                                        <p className="text-sm md:text-base mt-1">Internships</p>
+                                    </div>
+
+                                </div>
+
                             </span>
                         </div>
                     </ul>

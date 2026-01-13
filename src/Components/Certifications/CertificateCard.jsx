@@ -26,5 +26,17 @@ const CertificateCard = ({ title, description, verifyUrl, platform }) => {
   )
 }
 
+// proptype validation - used to ensure correct prop types
+// proptypes is used to ensure that the props passed to the component are of the correct type
+import PropTypes from 'prop-types';
+
+// Define prop types for the component
+CertificateCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  verifyUrl: PropTypes.string,
+  platform: PropTypes.string.isRequired,
+};
+
 export default CertificateCard
 

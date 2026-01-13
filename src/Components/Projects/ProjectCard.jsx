@@ -26,4 +26,17 @@ const ProjectCard = ({ title, tec, imgsrc, demo, git , type}) => {
   )
 }
 
+
+// PropTypes validation - used to ensure correct prop types are passed to the component
+import PropTypes from 'prop-types'
+
+ProjectCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  tec: PropTypes.string.isRequired,
+  imgsrc: PropTypes.string.isRequired,
+  demo: PropTypes.string.isRequired,
+  git: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+}
+
 export default ProjectCard

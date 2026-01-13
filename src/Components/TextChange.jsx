@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react'
 
 const TextChange = () => {
 
-  const texts = ["Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir"]
+  // const texts = ["Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir"]
   const [currentText, setCurrentText] = useState('');
   const [endValue, setEndValue] = useState(true);
   const [isForward, setIsForward] = useState(true);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
+    const texts = ["Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir", "Hi, I'm Sehar Tahir"]
     const intervalId = setInterval(() => {
       setCurrentText(texts[index].substring(0, endValue));
       if (isForward) {
@@ -27,7 +28,7 @@ const TextChange = () => {
 
     return () => clearInterval(intervalId)
 
-  }, [endValue, isForward, index, texts,]);
+  }, [endValue, isForward, index]);
   return (
     <div className='transition ease duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white'>
       {currentText}

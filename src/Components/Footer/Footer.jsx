@@ -45,7 +45,7 @@ const Footer = () => {
           ref={form}
           onSubmit={sendEmail}
           className="flex flex-col items-center w-full md:w-2/3 mx-auto gap-4"
- 
+
         >
           <input
             type="text"

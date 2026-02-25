@@ -8,15 +8,15 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(true);
   // Theme state with localStorage default value 
   const [theme, setTheme] = useState(() => {
-  return localStorage.getItem('theme') || 'dark';
-});
+    return localStorage.getItem('theme') || 'dark';
+  });
 
 
   // On first load default dark theme, Update theme class on theme change
-useEffect(() => {
-  document.documentElement.classList.remove('dark', 'light');
-  document.documentElement.classList.add(theme);
-}, [theme]);
+  useEffect(() => {
+    document.documentElement.classList.remove('dark', 'light');
+    document.documentElement.classList.add(theme);
+  }, [theme]);
 
   // Theme toggle logic
   const toggleTheme = () => {
@@ -44,10 +44,12 @@ useEffect(() => {
            md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>About</li></a>
           <a href="#Skills"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
            md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Skills</li></a>
-          <a href="#Experience"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
-           md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Experience</li></a>
           <a href="#Projects"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
            md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Projects</li></a>
+          <a href="#Experience"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
+           md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Experience</li></a>
+          <a href="#Certifications"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
+           md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Certifications</li></a>
           <a href="#Contact"><li className='text-md transition-all duration-300 p-1 md:p-0 hover:scale-110 hover:text-gray-300
            md:bg-transparent md:bg-opacity-30  bg-[#465697] rounded px-1 '>Contact</li></a>
         </ul>

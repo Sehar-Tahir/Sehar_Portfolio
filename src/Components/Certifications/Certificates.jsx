@@ -2,7 +2,7 @@
 import CertificateCard from "./CertificateCard"
 
 const Certificates = () => {
-   const certificates = [
+  const certificates = [
     {
       title: "Introduction to Frontend Development",
       description:
@@ -49,27 +49,27 @@ const Certificates = () => {
 
   return (
     <>
-    <div className="mt-20">
-      <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center">
-        Certifications
-      </h2>
+      <div className="mt-20" id="Certifications">
+        <h2 className="transition-all duration-300 bg-white text-[#465697] dark:bg-[#171d32] dark:text-white text-2xl md:text-4xl font-bold text-center">
+          Certifications
+        </h2>
 
-      <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 mb-5 dark:border-white"></div>
+        <div className="border-[#465697] border-b-2 w-40 mx-auto mt-3 mb-5 dark:border-white"></div>
 
-      <div
-        id="Certificates"
-        className="flex flex-wrap justify-center items-center gap-6 mt-10 px-4 mb-5"
-      >
-        {certificates.map((cert, index) => (
-          <CertificateCard
-            key={index}
-            title={cert.title}
-            platform={cert.platform}
-            description={cert.description}
-            verifyUrl={cert.url}
-          />
-        ))}
-      </div>
+        <div
+          id="Certificates"
+          className="flex flex-wrap justify-center items-center gap-6 mt-10 px-4 mb-5"
+        >
+          {certificates.map((cert, index) => (
+            <CertificateCard
+              key={index}
+              title={cert.title}
+              platform={cert.platform}
+              description={cert.description}
+              verifyUrl={cert.url}
+            />
+          ))}
+        </div>
       </div>
     </>
   )

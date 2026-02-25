@@ -13,7 +13,7 @@ const Home = () => {
                     <TextChange />
                 </h1>
                 <p className='text-sm md:text-xl tracking-tight mt-3 bg-white text-[#8991b0] dark:bg-[#171d32] dark:text-white transition-all duration-300'>
-                    A passionate Web Developer from Pakistan. Reach out to me if you&#39;d like to know more!</p>
+                    A passionate Web Developer from Pakistan. Feel free to reach out I&#39;d love to connect and build something amazing together!</p>
 
                 <div className='flex flex-col items-center mt-6 mb-4 md:mb-0'>
 

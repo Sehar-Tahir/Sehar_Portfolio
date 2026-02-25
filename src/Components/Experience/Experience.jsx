@@ -7,14 +7,14 @@ const Experience = () => {
 
                 <div id='Experience' className='flex flex-col justify-center items-center gap-6 mt-14'>
 
-                    <div className='border-x-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mx-24 mx-10 shadow-lg'>
+                    <div className='border-x-4 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mx-24 mx-10 shadow-lg'>
                         <div className='flex gap-3 py-6 md:px-16 md:mt-0 flex-col'>
                             <h1 className='font-bold text-xl text-[#465697] dark:text-white'>Advanced Web Development Trainee</h1>
                             <p className='text-sm md:text-md leading-tight dark:text-slate-400 text-slate-600'>
                                 NAVTTAC | March 2025 - June 2025
                             </p>
                             <p className="">
-                                Completed hands-on training under the Prime Minister’s Skills Development Program in frontend (HTML, CSS, Bootstrap, JavaScript) 
+                                Completed hands-on training under the Prime Minister’s Skills Development Program in frontend (HTML, CSS, Bootstrap, JavaScript)
                                 and backend (PHP, Laravel).
                                 Worked on practical web projects, strengthening full-stack development skills and professional coding practices.
                             </p>
@@ -23,7 +23,7 @@ const Experience = () => {
 
 
 
-                    <div className='border-x-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mx-24 mx-10 shadow-lg'>
+                    <div className='border-x-4 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-3 md:mx-24 mx-10 shadow-lg'>
                         <div className='flex gap-3 py-6 md:px-16 md:mt-0 flex-col'>
                             <h1 className='font-bold text-xl text-[#465697] dark:text-white'>React & Next.Js Fellowship</h1>
                             <p className='text-sm md:text-md leading-tight dark:text-slate-400 text-slate-600'>
@@ -42,7 +42,7 @@ const Experience = () => {
                     </div>
 
 
-                    <div className='border-x-2 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-4 md:mx-24 mx-10 shadow-lg'>
+                    <div className='border-x-4 border-[#465697] dark:border-white text-white bg-[#202741] bg-opacity-30 rounded-lg p-4 md:mx-24 mx-10 shadow-lg'>
                         <div className='flex gap-3 py-6 md:px-16 md:mt-0 flex-col'>
                             <h1 className='font-bold text-xl text-[#465697] dark:text-white'>Web Dev Internship</h1>
                             <p className='text-sm md:text-md leading-tight dark:text-slate-400 text-slate-600'>

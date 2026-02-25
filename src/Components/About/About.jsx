@@ -14,12 +14,15 @@ const About = () => {
                             <span className='w-96'>
                                 <h1 className="text-xl md:text-4xl font-bold leading-normal dark:text-white text-[#465697]">Web Developer</h1>
                                 <p className='text-sm md:text-md leading-tight mt-3'>
-                                    I’m Sehar Tahir, a Web Developer focused on building clean, responsive,
-                                    and high-performing web applications. I specialize in creating smooth
-                                    user experiences using HTML, CSS, JavaScript, React, and modern UI
-                                    frameworks like Tailwind CSS, Bootstrap, DaisyUI, and Material UI.
-                                    Currently, I’m expanding my skills by learning backend development
-                                    with the MERN stack.
+                                    I&#39;m Sehar Tahir, A passionate Web Developer focused on building clean, responsive, and high-performing web applications.<br />
+
+                                    <span className='text-[#465697] dark:text-yellow-400 font-bold'>&#10148;</span> I love turning ideas into interactive digital experiences that are both visually appealing and user-friendly.<br />
+                                    <span className='text-[#465697] dark:text-yellow-400 font-bold'>&#10148;</span> I pay attention to the small details that make a website feel smooth, modern, and intuitive.<br />
+                                    <span className='text-[#465697] dark:text-yellow-400 font-bold'>&#10148;</span> My journey started with frontend development, where I developed a strong sense of design and user experience.<br />
+                                    <span className='text-[#465697] dark:text-yellow-400 font-bold'>&#10148;</span> Now, I&#39;m expanding into backend development and growing as a full-stack developer with the MERN stack.<br />
+                                    <span className='text-[#465697] dark:text-yellow-400 font-bold'>&#10148;</span> I&#39;m always learning, improving, and pushing myself to build better solutions every day.<br />
+
+                                    Let&#39;s create something meaningful together!
                                 </p>
 
                                 {/* Stats Section */}
@@ -34,14 +37,14 @@ const About = () => {
 
                                     <div className="text-center">
                                         <h3 className="text-xl md:text-4xl font-bold text-[#465697] dark:text-white">
-                                            6
+                                            6+
                                         </h3>
                                         <p className="text-sm md:text-base mt-1">Courses Completed</p>
                                     </div>
 
                                     <div className="text-center">
                                         <h3 className="text-xl md:text-4xl font-bold text-[#465697] dark:text-white">
-                                            2
+                                            2+
                                         </h3>
                                         <p className="text-sm md:text-base mt-1">Internships</p>
                                     </div>

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 /* For Smooth scrolling */
-*{
+* {
     scroll-behavior: smooth;
 }
